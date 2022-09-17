@@ -31,10 +31,4 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'google' => [
-        'client_id' => '692618848067-b31upajjl8670aise1vfe1krr7ba4fhk.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'http://blogbus.com/auth/google/callback',
-    ],
-
 ];
